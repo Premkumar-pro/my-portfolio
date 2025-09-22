@@ -52,7 +52,7 @@ const About = () => {
   return (
     <section id="about" ref={ref} className="py-20 px-4 bg-white">
       <div className="max-w-6xl mx-auto">
-        <motion.h2 
+        <motion.h2
           className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-16"
           initial={{ opacity: 0, y: 30 }}
           animate={animated ? { opacity: 1, y: 0 } : {}}
@@ -63,22 +63,23 @@ const About = () => {
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Image Section - Left Side Square Box */}
-          <motion.div 
+          <motion.div
             className="relative"
             variants={imageVariants}
             initial="hidden"
             animate={animated ? "visible" : ""}
           >
             <div className="w-100 h-100 mx-auto bg-gradient-to-br from-blue-400 to-indigo-600 p-1 rounded-2xl shadow-2xl transform rotate-2">
-              <div className="w-full h-full bg-white rounded-xl overflow-hidden border-4 border-white">
-                <img 
-                  src="/images/About.jpg" 
-                  alt="prem kumar ponnada picture" 
+              <div className="w-full sm:w-80 h-64 sm:h-96 bg-white rounded-xl overflow-hidden border-4 border-white mx-auto">
+                <img
+                  src="/images/About.jpg"
+                  alt="Prem Kumar Ponnada picture"
                   className="w-full h-full object-cover"
                 />
               </div>
+
             </div>
-            
+
             {/* Decorative elements */}
             <div className="absolute -top-4 -left-4 w-16 h-16 bg-yellow-400 rounded-lg opacity-20 animate-bounce"></div>
             <div className="absolute -bottom-4 -right-4 w-14 h-14 bg-green-400 rounded-lg opacity-20 animate-pulse"></div>
@@ -97,14 +98,14 @@ const About = () => {
             </motion.h3>
 
             <motion.p variants={itemVariants} className="text-lg text-gray-600 leading-relaxed">
-              I'm a passionate Python Full Stack Developer with expertise in creating dynamic, 
-              responsive web applications. With a strong foundation in both frontend and backend technologies, 
+              I'm a passionate Python Full Stack Developer with expertise in creating dynamic,
+              responsive web applications. With a strong foundation in both frontend and backend technologies,
               I love turning complex problems into simple, beautiful solutions.
             </motion.p>
 
             <motion.p variants={itemVariants} className="text-lg text-gray-600 leading-relaxed">
-              My journey in web development started with Python and has expanded to include modern 
-              JavaScript frameworks like React.js. I enjoy working with databases and creating 
+              My journey in web development started with Python and has expanded to include modern
+              JavaScript frameworks like React.js. I enjoy working with databases and creating
               seamless user experiences that make a difference.
             </motion.p>
 
@@ -127,17 +128,17 @@ const About = () => {
               </div>
             </motion.div>
 
-          <motion.div variants={itemVariants} className="pt-6">
-  <a 
-    href="https://docs.google.com/document/d/14bd7_1G1G95foroA3g_bl15Fn58HPJ2C/export?format=pdf" 
-    target="_blank" 
-    rel="noopener noreferrer"
-  >
-    <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105 shadow-lg cursor-pointer">
-      Download Resume
-    </button>
-  </a>
-</motion.div>
+            <motion.div variants={itemVariants} className="pt-6">
+              <a
+                href="https://docs.google.com/document/d/14bd7_1G1G95foroA3g_bl15Fn58HPJ2C/export?format=pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105 shadow-lg cursor-pointer">
+                  Download Resume
+                </button>
+              </a>
+            </motion.div>
 
 
           </motion.div>
