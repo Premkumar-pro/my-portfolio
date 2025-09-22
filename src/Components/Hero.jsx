@@ -79,22 +79,30 @@ const Hero = () => {
         </div>
 
         {/* Image Content */}
-        <div className="relative flex justify-center md:justify-end mt-8 md:mt-0">
-          <div className="w-60 h-60 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 bg-gradient-to-br from-blue-400 to-indigo-600 rounded-full flex items-center justify-center shadow-2xl">
-            <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 bg-white rounded-full flex items-center justify-center overflow-hidden border-4 border-white mx-auto">
-              <img
-                src="/images/2.jpg"
-                alt="Prem Kumar"
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </div>
+<div className="relative flex justify-center md:justify-end mt-8 md:mt-0">
+  {/* Gradient Circle wraps the image perfectly */}
+  <div className="relative inline-flex items-center justify-center rounded-full bg-gradient-to-br from-blue-400 to-indigo-600 shadow-2xl
+                  w-40 h-40 sm:w-52 sm:h-52 md:w-64 md:h-64 lg:w-92 lg:h-92 xl:w-80 xl:h-80">
+    
+    {/* Image Circle inside gradient */}
+    <div className="w-32 h-32 sm:w-44 sm:h-44 md:w-56 md:h-56 lg:w-94 lg:h-94 xl:w-72 xl:h-72 bg-white rounded-full flex items-center justify-center overflow-hidden border-4 border-white">
+      <img
+        src="/images/2.jpg"
+        alt="Prem Kumar"
+        className="w-full h-full object-cover"
+      />
+    </div>
+  </div>
 
-          {/* Floating Elements */}
-          <div className="absolute -top-4 -left-4 w-16 sm:w-20 h-16 sm:h-20 bg-yellow-400 rounded-full opacity-20 animate-bounce"></div>
-          <div className="absolute -bottom-4 -right-4 w-12 sm:w-16 h-12 sm:h-16 bg-green-400 rounded-full opacity-20 animate-pulse"></div>
-          <div className="absolute top-1/2 -right-8 w-10 sm:w-16 h-10 sm:h-16 bg-red-400 rounded-full opacity-20 animate-ping"></div>
-        </div>
+  {/* Floating Elements */}
+  <div className="absolute -top-2 -left-2 w-10 sm:w-12 h-10 sm:h-12 bg-yellow-400 rounded-full opacity-20 animate-bounce"></div>
+  <div className="absolute -bottom-2 -right-2 w-8 sm:w-10 h-8 sm:h-10 bg-green-400 rounded-full opacity-20 animate-pulse"></div>
+  <div className="absolute top-1/2 -right-4 w-6 sm:w-10 h-6 sm:h-10 bg-red-400 rounded-full opacity-20 animate-ping"></div>
+</div>
+
+
+
+
       </div>
 
       {/* Scroll Indicator */}

@@ -70,7 +70,7 @@ const About = () => {
             animate={animated ? "visible" : ""}
           >
             <div className="w-100 h-100 mx-auto bg-gradient-to-br from-blue-400 to-indigo-600 p-1 rounded-2xl shadow-2xl transform rotate-2">
-              <div className="w-full sm:w-80 h-64 sm:h-96 bg-white rounded-xl overflow-hidden border-4 border-white mx-auto">
+              <div className="w-full sm:w-100 h-98 sm:h-96 bg-white rounded-xl overflow-hidden border-4 border-white mx-auto">
                 <img
                   src="/images/About.jpg"
                   alt="Prem Kumar Ponnada picture"
