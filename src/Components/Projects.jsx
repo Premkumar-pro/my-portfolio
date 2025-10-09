@@ -17,12 +17,12 @@ const Projects = () => {
 const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "Full-stack e-commerce solution with Django backend and React frontend with payment integration.",
-    technologies: ["Python", "Django", "React", "PostgreSQL", "Stripe"],
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+    title: "CodeGen.ai AI-Power CodeConverter",
+    description: "Full-Stack CodeGen.ai Project Convert Code Between 50+ Languages Supports Frontend and Backend Databases Languages",
+    technologies: ["Python", "Django", "React", "MySql", "Mui design"],
+    image: "./images/project1.1.png",
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Premkumar-pro/codegen",
     detailspath: "/projects/project1"
   },
   {

@@ -32,10 +32,11 @@ const Project1 = () => {
           className="text-center mb-12"
         >
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-            E-Commerce Platform
+            CodeGen.ai AI-Powered Condecoverter
           </h1>
           <p className="text-xl text-gray-600 mb-6">
-            Full-stack e-commerce solution with Django backend and React frontend
+            Full-stack CodeGen.ai it was supported mare than 50 languages frontend backend along with database i am forward to add more languages which was helpful to all peroples 
+            .<br></br><b>solution with Django backend and React frontend</b>
           </p>
           
           {/* Live Demo Button */}
@@ -77,7 +78,7 @@ const Project1 = () => {
           className="mb-12"
         >
           <img
-            src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+             src="/images/project1.1.png"
             alt="E-Commerce Platform"
             className="w-full h-96 object-cover rounded-xl shadow-lg"
           />
@@ -95,30 +96,34 @@ const Project1 = () => {
             <h2 className="text-3xl font-bold text-gray-800 mb-6">Project Overview</h2>
             
             <div className="prose prose-lg text-gray-600 mb-8">
-              <p>
-                A complete e-commerce platform built with Django REST Framework for the backend and React with Redux for state management on the frontend. 
-                This project includes user authentication, product catalog, shopping cart, and payment processing integration.
-              </p>
-              
-              <p>
-                The platform features a responsive design that works seamlessly across all devices, 
-                with a focus on user experience and performance optimization. 
-                It includes admin panel for product management, order tracking, and user management.
-              </p>
+  <p>
+    <strong>CodeGen</strong> is an advanced code conversion platform that allows developers to instantly 
+    convert code between multiple programming languages. It is built with <strong>Django REST Framework</strong> 
+    on the backend and <strong>React.js</strong> for the frontend. The platform is designed to save developers’ time 
+    by providing accurate, AI-powered code translations with syntax highlighting and a clean, responsive interface.
+  </p>
 
-              <h3 className="text-xl font-semibold text-gray-800 mt-8 mb-4">Key Features</h3>
-              <ul className="list-disc list-inside space-y-2">
-                <li>User authentication and authorization system</li>
-                <li>Product catalog with categories and filters</li>
-                <li>Shopping cart with persistent storage</li>
-                <li>Payment integration with Stripe API</li>
-                <li>Order management system</li>
-                <li>Admin dashboard for product management</li>
-                <li>Responsive design for mobile and desktop</li>
-                <li>Product reviews and ratings system</li>
-              </ul>
-            </div>
+  <p>
+    CodeGen includes user authentication, a modern dashboard, and light/dark mode support for a better coding experience.
+    The project focuses on scalability, UI consistency, and real-time code rendering for multiple languages 
+    such as Python, C, C++, Java, and JavaScript. 
+    Users can log in, manage their conversions, and access a seamless workflow across devices.
+  </p>
+
+  <h3 className="text-xl font-semibold text-gray-800 mt-8 mb-4">Key Features</h3>
+  <ul className="list-disc list-inside space-y-2">
+    <li>AI-powered code conversion between multiple programming languages</li>
+    <li>Built using Django REST Framework and React.js</li>
+    <li>Login and signup authentication system</li>
+    <li>Interactive dashboard for managing conversions</li>
+    <li>Light and dark mode toggle for better UX</li>
+    <li>Responsive design for all devices</li>
+    <li>Deployed with a fast and secure backend API</li>
+    <li>Extensible architecture for adding more languages and features</li>
+  </ul>
+</div>
           </div>
+
 
           {/* Sidebar */}
           <div className="lg:col-span-1">
@@ -161,15 +166,15 @@ const Project1 = () => {
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between">
                     <span className="text-gray-600">Category:</span>
-                    <span className="text-gray-800">E-Commerce</span>
+                    <span className="text-gray-800">CodeConverter</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-600">Duration:</span>
-                    <span className="text-gray-800">3 Months</span>
+                    <span className="text-gray-800">10 Dayss</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-600">Status:</span>
-                    <span className="text-green-600">Completed</span>
+                    <span className="text-green-600">Completed and Deployed</span>
                   </div>
                 </div>
               </div>
@@ -187,12 +192,12 @@ const Project1 = () => {
           <h2 className="text-3xl font-bold text-gray-800 mb-6">Screenshots</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <img
-              src="https://images.unsplash.com/photo-1556742044-9f5df461d7d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+              src="/images/project1.3.png"
               alt="E-Commerce Dashboard"
               className="w-full h-64 object-cover rounded-xl shadow-lg"
             />
             <img
-              src="https://images.unsplash.com/photo-1556742044-9f5df461d7d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+              src="/images/project1.2.png"
               alt="Product Page"
               className="w-full h-64 object-cover rounded-xl shadow-lg"
             />
